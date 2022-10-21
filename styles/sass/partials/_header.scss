@@ -1,2 +1,10 @@
 @use './variables';
 
+header{
+    height: 50vh;
+    width: 100%;
+    background-image: url(../assets/home-header);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

@@ -246,6 +246,20 @@ img {
   max-width: 100%;
 }
 
+.headerNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.headerNav li {
+  color: red;
+  padding: 1rem;
+}
+
 .wrapper {
   width: 90%;
   margin: 0 auto;
@@ -255,6 +269,14 @@ img {
 img {
   max-width: 100%;
   display: block;
+}
+
+header {
+  height: 50vh;
+  width: 100%;
+  background-image: url(../assets/home-header);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 html {
@@ -339,4 +361,17 @@ a {
   cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+.footer {
+  height: 1.5rem;
+  background-color: #fdd908;
+}
+.footer .footerText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
