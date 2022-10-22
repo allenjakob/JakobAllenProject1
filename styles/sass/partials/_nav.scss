@@ -9,9 +9,12 @@
 
         a{
             color: variables.$white;
-            border-bottom: 1px solid variables.$white;
+            border-bottom: 1px solid variables.$blue;
             &:hover{
-                border-bottom: 0px;
+                border-bottom: 1px solid variables.$white;
+            }
+            &:focus{
+                border-bottom: 1px solid variables.$white;
             }
         }
     }
