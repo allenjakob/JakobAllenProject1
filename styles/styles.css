@@ -256,8 +256,14 @@ img {
           flex-direction: row;
 }
 .headerNav li {
-  color: red;
   padding: 1rem;
+}
+.headerNav li a {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.headerNav li a:hover {
+  border-bottom: 0px;
 }
 
 .wrapper {
@@ -274,9 +280,7 @@ img {
 header {
   height: 50vh;
   width: 100%;
-  background-image: url(../assets/home-header);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #0d457f;
 }
 
 html {
@@ -295,7 +299,6 @@ h3 {
   font-family: "IM Fell";
   font-weight: normal;
   color: #fdd908;
-  margin: 0;
 }
 
 h1 {
@@ -315,21 +318,6 @@ h3 {
   font-size: 2.7rem;
   line-height: 3rem;
   margin-bottom: 24px;
-}
-
-h4 {
-  font-size: 1.7rem;
-  line-height: 2rem;
-  margin-bottom: 18px;
-}
-
-h5 {
-  font-size: 0.7rem;
-  font-weight: bold;
-  line-height: 1.2rem;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
-  margin: 0 0 24px 0;
 }
 
 p {
@@ -357,7 +345,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: inherit;
   cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;

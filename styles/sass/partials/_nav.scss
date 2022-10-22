@@ -5,8 +5,14 @@
     flex-direction: row;
 
     li{
-        color: red;
-        // color: variables.$white;
         padding: 1rem;
+
+        a{
+            color: variables.$white;
+            border-bottom: 1px solid variables.$white;
+            &:hover{
+                border-bottom: 0px;
+            }
+        }
     }
 }
