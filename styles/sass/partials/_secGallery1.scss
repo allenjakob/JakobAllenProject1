@@ -1,0 +1,6 @@
+@use './variables';
+
+.gallery1{
+    background-color: variables.$blue;
+    height: 100vh;
+}

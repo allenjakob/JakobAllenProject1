@@ -1,0 +1,25 @@
+@use './variables';
+// main background
+.aboutSec{
+    background-color: variables.$iceBlue;
+    height: 100vh;
+}
+// sets up the flex box to hold all the flex children 
+.aboutFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.aboutItem {
+    width: 40%;
+    margin: 20px;
+    margin-top: 100px;
+}
+//maneuvering the main image using pos - abs
+.homeImg {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    width: 50%;
+}

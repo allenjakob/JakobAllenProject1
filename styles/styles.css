@@ -280,10 +280,20 @@ img {
   display: block;
 }
 
+button {
+  color: #0d457f;
+  background-color: #fdd908;
+  font-family: "IM Fell";
+}
+
 header {
   height: 50vh;
   width: 100%;
   background-color: #0d457f;
+}
+header h1 {
+  font-size: 79px;
+  text-transform: uppercase;
 }
 
 html {
@@ -366,26 +376,36 @@ a {
           justify-content: center;
 }
 
+.aboutSec {
+  background-color: #EAFEFC;
+  height: 100vh;
+}
+
 .aboutFlex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .aboutItem {
   width: 40%;
   margin: 20px;
+  margin-top: 100px;
 }
 
 .homeImg {
   position: absolute;
-  top: 250px;
+  top: 150px;
   right: 0;
   width: 50%;
+}
+
+.gallery1 {
+  background-color: #0d457f;
+  height: 100vh;
 }
