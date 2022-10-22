@@ -289,7 +289,9 @@ button {
 header {
   height: 50vh;
   width: 100%;
-  background-color: #0d457f;
+  background-image: url(../assets/home-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 header h1 {
   font-size: 79px;
@@ -404,8 +406,37 @@ a {
   right: 0;
   width: 50%;
 }
+.homeImg img {
+  min-width: 200px;
+}
+
+.blogLink {
+  background-color: #EAFEFC;
+  background-image: url(../../../assets/banner.jpg);
+}
 
 .gallery1 {
   background-color: #0d457f;
   height: 100vh;
+}
+
+.gallery1Flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gal1ImgCon {
+  position: absolute;
+  width: 50%;
+}
+
+.gal1ImgCon1 {
+  -webkit-box-shadow: 10px 5px 5px #fdd908;
+          box-shadow: 10px 5px 5px #fdd908;
+}
+
+.gal1ImgCon2 {
+  left: 10;
+  bottom: 10;
 }

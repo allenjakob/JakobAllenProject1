@@ -1,1 +1,6 @@
 @use './variables';
+
+.blogLink{
+    background-color: variables.$iceBlue;
+    background-image: url(../../../assets/banner.jpg);
+}

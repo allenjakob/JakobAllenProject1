@@ -1,6 +1,26 @@
 @use './variables';
 
-.gallery1{
+.gallery1 {
     background-color: variables.$blue;
     height: 100vh;
+}
+
+.gallery1Flex {
+    display: flex;
+}
+
+.gal1ImgCon {
+    position: absolute;
+    width: 50%;
+}
+
+.gal1ImgCon1 {
+    box-shadow: 10px 5px 5px variables.$yellow;
+    // top: 0px;
+
+}
+
+.gal1ImgCon2 {
+    left: 10;
+    bottom: 10;
 }
