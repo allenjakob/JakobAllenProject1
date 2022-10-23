@@ -9,6 +9,7 @@
 
 .formBox{
     display: flex;
+    flex-direction: column;
     position: absolute;
     bottom: 10%;
     right: 3%;
@@ -16,9 +17,13 @@
     box-shadow: 20px 20px variables.$yellow;
     height: 50vh;
     width: 50%;
+    padding: 20px;
+    button{
+        margin-top: 10px;
+    }
 }
 
-.info{
+.infoCon{
     padding: 5.6%;
     padding-left: 16%;
     .emailText{
@@ -29,15 +34,22 @@
 input{
     background-color: transparent;
     width: 45%;
+    border: none;
+    border-bottom: 2px solid variables.$yellow;
 
 }
 
 textArea{
     background-color: transparent;
-    border: 1px solid variables.$yellow;
+    border: 2px solid variables.$yellow;
 }
 i {
     color: variables.$blue;
     margin: 10px 0;
     margin-right: 15px;
-  }
+}
+
+#email, #name, #message{
+    padding: 20px;
+    margin-top: 20px;
+}

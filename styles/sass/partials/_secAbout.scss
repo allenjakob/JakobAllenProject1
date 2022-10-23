@@ -4,6 +4,8 @@
     background-color: variables.$iceBlue;
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 // sets up the flex box to hold all the flex children 
 .aboutFlex {
@@ -15,7 +17,7 @@
 .aboutItem {
     width: 40%;
     margin: 20px;
-    margin-top: 100px;
+    // margin-top: 100px;
 }
 //maneuvering the main image using pos - abs
 .homeImg {

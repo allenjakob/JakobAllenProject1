@@ -259,6 +259,7 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  font-family: "Roboto", sans-serif;
 }
 .headerNav li {
   padding: 1rem;
@@ -288,7 +289,45 @@ img {
 button {
   color: #0d457f;
   background-color: #fdd908;
-  font-family: "IM Fell";
+  font-family: "IM Fell English", serif;
+}
+
+.circleIcon {
+  height: 50px;
+  min-width: 50px;
+  background-color: #fdd908;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 15px;
+}
+.circleIcon i {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+
+i.fa-users {
+  color: #0d457f;
+  left: 7px;
+  top: 1px;
+}
+
+i.fa-map-marker-alt {
+  left: 14px;
+  top: 1px;
+  color: #0d457f;
+}
+
+i.fa-sticky-note {
+  left: 14px;
+  top: 1px;
+  color: #0d457f;
+}
+
+i.fa-phone {
+  left: 10px;
+  top: 1px;
+  color: #0d457f;
 }
 
 header {
@@ -299,8 +338,9 @@ header {
   background-size: cover;
 }
 header h1 {
-  font-size: 79px;
+  font-size: 3rem;
   text-transform: uppercase;
+  margin-left: 100px;
 }
 
 html {
@@ -309,21 +349,21 @@ html {
 }
 
 body {
-  font-family: "IM Fell";
+  font-family: "IM Fell English", serif;
   font-size: 1rem;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "IM Fell";
+  font-family: "IM Fell English", serif;
   font-weight: normal;
   color: #fdd908;
 }
 
 h1 {
   font-size: 1.4rem;
-  font-family: "IM Fell";
+  font-family: "IM Fell English", serif;
   font-weight: normal;
   color: #fdd908;
 }
@@ -380,12 +420,18 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .aboutSec {
   background-color: #EAFEFC;
   height: 100vh;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .aboutFlex {
@@ -402,7 +448,6 @@ footer {
 .aboutItem {
   width: 40%;
   margin: 20px;
-  margin-top: 100px;
 }
 
 .homeImg {
@@ -481,6 +526,10 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: absolute;
   bottom: 10%;
   right: 3%;
@@ -489,28 +538,39 @@ footer {
           box-shadow: 20px 20px #fdd908;
   height: 50vh;
   width: 50%;
+  padding: 20px;
+}
+.formBox button {
+  margin-top: 10px;
 }
 
-.info {
+.infoCon {
   padding: 5.6%;
   padding-left: 16%;
 }
-.info .emailText {
+.infoCon .emailText {
   margin: 15px;
 }
 
 input {
   background-color: transparent;
   width: 45%;
+  border: none;
+  border-bottom: 2px solid #fdd908;
 }
 
 textArea {
   background-color: transparent;
-  border: 1px solid #fdd908;
+  border: 2px solid #fdd908;
 }
 
 i {
   color: #0d457f;
   margin: 10px 0;
   margin-right: 15px;
+}
+
+#email, #name, #message {
+  padding: 20px;
+  margin-top: 20px;
 }

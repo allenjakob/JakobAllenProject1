@@ -8,6 +8,10 @@
     <title>Contact</title>
     <link rel="stylesheet" href="./styles/styles.css">
     <script src="https://kit.fontawesome.com/e0246ef5da.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -23,13 +27,12 @@
                 </ul>
             </div>
         </nav>
-        <!--  -->
+        <!-- for the h1 -->
         <div class="h1Con2">
             <h1>get in touch</h1>
         </div>
-
-
     </header>
+
     <main class="contactPage">
         <div class="wrapper infoCon">
             <div class="socialIconsContainer">
@@ -39,26 +42,20 @@
                 <i class="fab fa-whatsapp fa-2x"></i>
             </div>
             <p class="emailText">info@email.com</p>
-            <p>123-456-7890 123 Queen Street West, Unit 10 Toronto, Ontario M5V2D5</p>
+            <p>123-456-7890 123<br>Queen Street West, Unit 10<br>Toronto, Ontario<br>M5V2D5</p>
         </div>
-        <div class="formBox">
-            <form action="submit">
-                <div>
-                    <label for="name"></label>
-                    <input type="text" id="name" name="name" placeholder="Your name here">
-                </div>
-                <div>
-                    <label for="email"></label>
-                    <input type="text" id="email" name="email" placeholder="Email Address">
-                </div>
-                <!-- <div>
-                    <label for="message">M</label>
-                    <input type="text" name="message" id="message" placeholder="Message">
-                </div> -->
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+        <form class="formBox">
+            <div class="inputs">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Name">
+            </div>
+            <div class="inputs">
+                <label for="email"></label>
+                <input type="text" id="email" name="email" placeholder="Email Address" required>
+            </div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
     </main>
     <footer>
         <p>Copyright Juno 2022</p>

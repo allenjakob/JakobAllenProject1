@@ -11,11 +11,50 @@ img{
     display: block;
   }
 
-
 // button styles
 
 button{
   color: variables.$blue;
   background-color: variables.$yellow;
   font-family: variables.$font1;
+}
+
+.circleIcon {
+  height: 50px;
+  min-width: 50px;
+  background-color: variables.$yellow;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 15px;
+  // display: inline-block;
+  i {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+
+  }
+}
+
+i.fa-users {
+  color: variables.$blue;
+  left: 7px;
+  top: 1px;
+}
+
+i.fa-map-marker-alt {
+  left: 14px;
+  top: 1px;
+  color: variables.$blue;
+}
+
+i.fa-sticky-note {
+  left: 14px;
+  top: 1px;
+  color: variables.$blue;
+}
+
+i.fa-phone {
+  left: 10px;
+  top: 1px;
+  color: variables.$blue;
 }
