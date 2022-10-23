@@ -3,6 +3,7 @@
 .aboutSec{
     background-color: variables.$iceBlue;
     height: 100vh;
+    position: relative;
 }
 // sets up the flex box to hold all the flex children 
 .aboutFlex {
@@ -19,10 +20,10 @@
 //maneuvering the main image using pos - abs
 .homeImg {
     position: absolute;
-    top: 150px;
+    top: -300px;
     right: 0;
     width: 50%;
     img{
-        min-width: 200px;
+        min-width: 300px;
     }
 }

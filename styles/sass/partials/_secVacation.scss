@@ -1,0 +1,19 @@
+@use './variables';
+
+.vacation {
+    background-color: variables.$iceBlue;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    
+    .vacationBox {
+        
+        h2{
+            color: variables.$blue;
+            margin-top: 0;
+        }
+    }
+
+}

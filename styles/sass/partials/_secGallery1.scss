@@ -5,22 +5,42 @@
     height: 100vh;
 }
 
+// main flex box
 .gallery1Flex {
     display: flex;
+    justify-content: space-between;
+
+    div{
+        width: 40%;
+    }
 }
 
-.gal1ImgCon {
-    position: absolute;
-    width: 50%;
-}
+// targetting every image container
+// .gal1ImgCon {
+// }
 
 .gal1ImgCon1 {
-    box-shadow: 10px 5px 5px variables.$yellow;
-    // top: 0px;
+    box-shadow: 10px 10px variables.$yellow;
 
 }
 
+// 
 .gal1ImgCon2 {
-    left: 10;
-    bottom: 10;
+    box-shadow: 10px 10px variables.$yellow;
+    position: relative;
+    bottom: 40px;
+    // display: flex;
+    // flex-direction: row-reverse;
+
+}
+
+// first text container
+.gal1TextCon1{
+    text-align: right;
+}
+
+
+.gal1TextCon2{
+    text-align: right;
+
 }

@@ -1,0 +1,43 @@
+@use './variables';
+
+.contactPage{
+    background-color: variables.$white;
+    display: flex;
+    background-color: variables.$iceBlue;
+    height: 50vh;
+}
+
+.formBox{
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+    right: 3%;
+    background-color: variables.$blue;
+    box-shadow: 20px 20px variables.$yellow;
+    height: 50vh;
+    width: 50%;
+}
+
+.info{
+    padding: 5.6%;
+    padding-left: 16%;
+    .emailText{
+        margin: 15px;
+    }
+}
+
+input{
+    background-color: transparent;
+    width: 45%;
+
+}
+
+textArea{
+    background-color: transparent;
+    border: 1px solid variables.$yellow;
+}
+i {
+    color: variables.$blue;
+    margin: 10px 0;
+    margin-right: 15px;
+  }

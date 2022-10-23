@@ -207,6 +207,11 @@ html {
           box-sizing: border-box;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
@@ -365,22 +370,22 @@ a {
   transition: 0.3s;
 }
 
-.footer {
+footer {
   height: 1.5rem;
   background-color: #fdd908;
-}
-.footer .footerText {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 0;
 }
 
 .aboutSec {
   background-color: #EAFEFC;
   height: 100vh;
+  position: relative;
 }
 
 .aboutFlex {
@@ -402,17 +407,28 @@ a {
 
 .homeImg {
   position: absolute;
-  top: 150px;
+  top: -300px;
   right: 0;
   width: 50%;
 }
 .homeImg img {
-  min-width: 200px;
+  min-width: 300px;
 }
 
-.blogLink {
+.vacation {
   background-color: #EAFEFC;
-  background-image: url(../../../assets/banner.jpg);
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.vacation .vacationBox h2 {
+  color: #0d457f;
+  margin-top: 0;
 }
 
 .gallery1 {
@@ -424,19 +440,77 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
-
-.gal1ImgCon {
-  position: absolute;
-  width: 50%;
+.gallery1Flex div {
+  width: 40%;
 }
 
 .gal1ImgCon1 {
-  -webkit-box-shadow: 10px 5px 5px #fdd908;
-          box-shadow: 10px 5px 5px #fdd908;
+  -webkit-box-shadow: 10px 10px #fdd908;
+          box-shadow: 10px 10px #fdd908;
 }
 
 .gal1ImgCon2 {
-  left: 10;
-  bottom: 10;
+  -webkit-box-shadow: 10px 10px #fdd908;
+          box-shadow: 10px 10px #fdd908;
+  position: relative;
+  bottom: 40px;
+}
+
+.gal1TextCon1 {
+  text-align: right;
+}
+
+.gal1TextCon2 {
+  text-align: right;
+}
+
+.contactPage {
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #EAFEFC;
+  height: 50vh;
+}
+
+.formBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 10%;
+  right: 3%;
+  background-color: #0d457f;
+  -webkit-box-shadow: 20px 20px #fdd908;
+          box-shadow: 20px 20px #fdd908;
+  height: 50vh;
+  width: 50%;
+}
+
+.info {
+  padding: 5.6%;
+  padding-left: 16%;
+}
+.info .emailText {
+  margin: 15px;
+}
+
+input {
+  background-color: transparent;
+  width: 45%;
+}
+
+textArea {
+  background-color: transparent;
+  border: 1px solid #fdd908;
+}
+
+i {
+  color: #0d457f;
+  margin: 10px 0;
+  margin-right: 15px;
 }
