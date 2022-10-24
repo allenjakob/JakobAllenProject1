@@ -1,5 +1,24 @@
 @use './variables';
 
+.winTrip {
+    background-color: variables.$iceBlue;
+    height: 80vh;
+}
+
+.tripCon {
+    display: flex;
+    flex-direction: column;
+}
+
+.tripConMainImg {
+    width: 22%;
+    box-shadow: -10px 10px variables.$yellow;
+}
+
+.tripConMainText {
+    width: 50%;
+}
+
 .imgGallery2 {
     background-color: variables.$blue;
     height: 60vh;

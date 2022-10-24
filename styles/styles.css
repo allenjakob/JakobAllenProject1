@@ -292,20 +292,6 @@ button {
   font-family: "IM Fell English", serif;
 }
 
-.circleIcon {
-  height: 50px;
-  min-width: 50px;
-  background-color: #fdd908;
-  border-radius: 50%;
-  position: relative;
-  margin-right: 15px;
-}
-.circleIcon i {
-  position: absolute;
-  top: 10px;
-  right: 5px;
-}
-
 i.fa-users {
   color: #0d457f;
   left: 7px;
@@ -382,13 +368,6 @@ h3 {
 
 p {
   line-height: 1.5rem;
-  margin: 0 0 30px 0;
-}
-p.smallCopy {
-  font-size: 0.6rem;
-  line-height: 1.2rem;
-  font-weight: bold;
-  margin: 0;
 }
 
 ul,
@@ -513,6 +492,25 @@ footer {
   text-align: right;
 }
 
+.imgGallery2 {
+  background-color: #0d457f;
+  height: 60vh;
+}
+
+.galleryCon2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  padding-top: 70px;
+}
+
+.galleryCon2 li {
+  margin-right: 30px;
+  width: calc((100% - 60px) / 3);
+}
+
 .contactPage {
   background-color: #ffffff;
   display: -webkit-box;
@@ -573,4 +571,48 @@ i {
 #email, #name, #message {
   padding: 20px;
   margin-top: 20px;
+}
+
+.winTrip {
+  background-color: #EAFEFC;
+  height: 80vh;
+}
+
+.tripCon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tripConMainImg {
+  width: 22%;
+  -webkit-box-shadow: -10px 10px #fdd908;
+          box-shadow: -10px 10px #fdd908;
+}
+
+.tripConMainText {
+  width: 50%;
+}
+
+.imgGallery2 {
+  background-color: #0d457f;
+  height: 60vh;
+}
+
+.galleryCon2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  padding-top: 70px;
+}
+
+.galleryCon2 li {
+  margin-right: 30px;
+  width: calc((100% - 60px) / 3);
 }

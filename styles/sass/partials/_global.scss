@@ -19,21 +19,20 @@ button{
   font-family: variables.$font1;
 }
 
-.circleIcon {
-  height: 50px;
-  min-width: 50px;
-  background-color: variables.$yellow;
-  border-radius: 50%;
-  position: relative;
-  margin-right: 15px;
-  // display: inline-block;
-  i {
-    position: absolute;
-    top: 10px;
-    right: 5px;
+// .circleIcon {
+//   // height: 50;
+//   min-width: 50px;
+//   background-color: variables.$yellow;
+//   border-radius: 50%;
+//   position: relative;
+//   margin-right: 15px;
+//   i {
+//     position: absolute;
+//     top: 10px;
+//     right: 5px;
 
-  }
-}
+//   }
+// }
 
 i.fa-users {
   color: variables.$blue;
