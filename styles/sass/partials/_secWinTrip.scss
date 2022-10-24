@@ -18,21 +18,3 @@
 .tripConMainText {
     width: 50%;
 }
-
-.imgGallery2 {
-    background-color: variables.$blue;
-    height: 60vh;
-}
-
-.galleryCon2 ul {
-    display: flex;
-    list-style: none;
-    width: 100%;
-    padding-top: 70px;
-}
-
-.galleryCon2 li {
-    margin-right: 30px;
-    width: calc((100% - 60px) / 3);
-
-}

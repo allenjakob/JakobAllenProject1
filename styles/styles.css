@@ -597,22 +597,3 @@ i {
 .tripConMainText {
   width: 50%;
 }
-
-.imgGallery2 {
-  background-color: #0d457f;
-  height: 60vh;
-}
-
-.galleryCon2 ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  width: 100%;
-  padding-top: 70px;
-}
-
-.galleryCon2 li {
-  margin-right: 30px;
-  width: calc((100% - 60px) / 3);
-}
