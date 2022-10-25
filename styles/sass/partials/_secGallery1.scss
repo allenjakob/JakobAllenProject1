@@ -1,5 +1,6 @@
 @use './variables';
 
+// first gallery general styles
 .gallery1 {
     background-color: variables.$blue;
     height: 100vh;
@@ -16,22 +17,16 @@
 }
 
 // targetting every image container
-// .gal1ImgCon {
-// }
 
 .gal1ImgCon1 {
     box-shadow: 10px 10px variables.$yellow;
 
 }
 
-// 
 .gal1ImgCon2 {
     box-shadow: 10px 10px variables.$yellow;
     position: relative;
     bottom: 40px;
-    // display: flex;
-    // flex-direction: row-reverse;
-
 }
 
 // first text container
@@ -42,5 +37,4 @@
 
 .gal1TextCon2{
     text-align: right;
-
 }

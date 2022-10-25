@@ -1,15 +1,18 @@
 @use './variables';
 
+// "win trip" section general styles
 .winTrip {
     background-color: variables.$iceBlue;
     height: 80vh;
 }
 
+// flexbox 
 .tripCon {
     display: flex;
     flex-direction: column;
 }
 
+// image container styles
 .tripConMainImg {
     width: 22%;
     box-shadow: -10px 10px variables.$yellow;

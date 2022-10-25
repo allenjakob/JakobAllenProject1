@@ -1,5 +1,6 @@
 @use './variables';
 
+// nav general settings
 .headerNav{
     display: flex;
     flex-direction: row;
@@ -11,6 +12,7 @@
         a{
             color: variables.$white;
             border-bottom: 1px solid variables.$blue;
+            // hover and focus styles for accessability
             &:hover{
                 border-bottom: 1px solid variables.$white;
             }

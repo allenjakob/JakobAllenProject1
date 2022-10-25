@@ -1,5 +1,8 @@
 @use "./variables";
 
+// general styles
+
+// wrapper styles
 .wrapper{
     width: 90%;
     margin: 0 auto;
@@ -19,6 +22,8 @@ button{
   font-family: variables.$font1;
 }
 
+// was having problems getting a circle icon to work
+
 // .circleIcon {
 //   // height: 50;
 //   min-width: 50px;
@@ -34,6 +39,7 @@ button{
 //   }
 // }
 
+// icon styles
 i.fa-users {
   color: variables.$blue;
   left: 7px;

@@ -1,5 +1,6 @@
 @use './variables';
 
+// contact general styles
 .contactPage{
     background-color: variables.$white;
     display: flex;
@@ -7,6 +8,7 @@
     height: 50vh;
 }
 
+// main flexbox styling for the form
 .formBox{
     display: flex;
     flex-direction: column;
@@ -43,6 +45,7 @@ textArea{
     background-color: transparent;
     border: 2px solid variables.$yellow;
 }
+// for the icons
 i {
     color: variables.$blue;
     margin: 10px 0;
