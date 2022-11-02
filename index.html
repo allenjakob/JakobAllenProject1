@@ -177,14 +177,20 @@
         </footer>
     </main>
     <script>
-        // every time the h1 gets clicked we want to add some text.
+        // pseudocode: every time the h1 gets clicked we prompt the user. the text the user types replaces the h1.
 
+        // 'find' the h1 with DQS and save it as a const
         const h1 = document.querySelector('h1')
-        console.log(h1)
+        // console.log(h1)
 
-        h1.addEventListener()
+        // add an event listener for clicks
+        h1.addEventListener('click', () =>{
+            const userInput = prompt('Write some text to override the H1')
+            // finally we change the h1's text content to what the user chose
+            h1.textContent = userInput
+        })
 
-        
+
     </script>
 </body>
 </html>
